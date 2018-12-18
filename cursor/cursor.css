@@ -1,0 +1,17 @@
+/*****************  BY ARTURO.COMPANY  ********************/
+.cursor-default {
+  cursor: url("img/normal/default.png"), auto !important;
+}
+
+.cursor-pointer {
+  cursor: url("img/normal/pointer.png"), auto !important;
+}
+
+.cursor-coin {
+  cursor: url("img/normal/coin.png"), auto !important;
+}
+
+.cursor-grab {
+  cursor: url("img/normal/grab.png"), auto !important;
+}
+/*# sourceMappingURL=cursor.css.map */

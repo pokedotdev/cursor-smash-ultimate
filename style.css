@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url("img/bg.jpg");
+  background-size: auto 100%;
+  background-position: center;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  z-index: 1;
+}
+
+.github {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  bottom: 10px;
+  z-index: 2;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 auto;
+          flex: 1 auto;
+  height: 20%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+header img {
+  height: 80%;
+  width: auto;
+  padding: 30px 0;
+}
+
+.box {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+}
+
+.box .item {
+  width: 50%;
+  height: 50%;
+  float: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.box .item:hover {
+  background: white;
+}
+
+.box .item:hover h1 {
+  color: #dee2e9;
+}
+
+.box .item h1 {
+  color: black;
+  font-size: 100px;
+  font-weight: 500;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+/*# sourceMappingURL=style.css.map */
